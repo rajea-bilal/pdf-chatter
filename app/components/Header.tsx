@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 const Header = () => {
  return (
-    <header className="flex justify-between p-6 px-10 w-full">
+    <header className="flex justify-between p-4 px-8 w-full border-b border-stone-200/20 mb-4">
       {/* Logo section */}
       <div className="block md:flex items-center justify-center gap-3 cursor-pointer">
         <Image src="/pdf-chat.png" alt="PDF Chat logo" width="150" height="75" />
