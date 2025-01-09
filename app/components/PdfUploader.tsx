@@ -189,7 +189,7 @@ const PdfUploader: React.FC<Props> = ({ setPdfText, setSelectedFile }) => {
           </>
         )}
       </div>
-      {error && <p className={styles.errorMessage}>{error}</p>}
+      {error && <p className="text-red-500">{error}</p>}
     </>
   );
 };
