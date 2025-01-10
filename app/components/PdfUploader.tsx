@@ -158,7 +158,7 @@ const PdfUploader: React.FC<Props> = ({ setPdfText, setSelectedFile }) => {
     <>
       <div
         className={`h-full w-full flex flex-col items-center justify-center p-8 
-        border-2 border-dashed border-orange-100/70 rounded-lg transition-colors duration-200 ease-in-out
+        border-4 border-dashed border-orange-50/50 rounded-lg transition-colors duration-200 ease-in-out
         cursor-pointer
         ${isDragOver ? 'border-green-300 bg-green-300/10'
           : 'border-gray-300 hover:border-green-300/50'
