@@ -25,9 +25,9 @@ export default function RootLayout({
         baseTheme: dark
       }}
     >
-      <html lang="en">
+      <html lang="en" className="h-full">
         {/* Main Background Gradient */}
-        <body className="h-screen min-w-screen bg-gradient-to-br from-[#0B2A1C] to-[#04150E] relative py-4">
+        <body className="h-full min-w-screen bg-gradient-to-br from-[#0B2A1C] to-[#04150E] relative py-4">
         {/* Subtle Layered Gradient for Depth */}
         <div className="absolute inset-0 bg-gradient-to-tl from-[#0D3721]/80 via-[#0B2A1C]/70 to-transparent mix-blend-overlay"></div>
           {/* Circular Accent */}

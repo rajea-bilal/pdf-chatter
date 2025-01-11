@@ -9,13 +9,15 @@ import {
   UserButton,
 } from "@clerk/nextjs";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
  return (
     <header className="flex justify-between p-4 px-8 w-full border-b border-stone-200/20 mb-4">
       {/* Logo section */}
       <div className="block md:flex items-center justify-center gap-3 cursor-pointer">
-        <Image src="/pdf-chat.png" alt="PDF Chat logo" width="150" height="75" />
+        <Link href="/"><Image src="/pdf-chat.png" alt="PDF Chat logo" width="150" height="75" /></Link>
+       
         <div>
         <span className="text-sm text-orange-100/70">Developed by <a className="hover:text-green-300/50" href="https://www.linkedin.com/in/rajea-bilal/" target="_blank" rel="noopener noreferrer">Rajea Bilal</a></span>
       </div>
