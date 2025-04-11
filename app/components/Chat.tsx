@@ -39,7 +39,7 @@ const aiAuthor = {
   avatarUrl: '/bobby.png',
 };
 
-const MAX_MESSAGES_PER_DAY = 20;
+const MAX_MESSAGES_PER_DAY = 50;
 
 const Chat: React.FC<ChatProps> = ({ pdfText }) => {
   console.log('pdfText:', pdfText);
